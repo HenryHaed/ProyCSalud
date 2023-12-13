@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ProyCSalud/static/css/main.71395f3b.css",
+    "main.js": "/ProyCSalud/static/js/main.1c715684.js",
+    "static/media/banner-1-img.png": "/ProyCSalud/static/media/banner-1-img.361222eaeee0a6f91d91.png",
+    "static/media/maps.png": "/ProyCSalud/static/media/maps.3afb3075b51e8969104e.png",
+    "static/media/about-img.png": "/ProyCSalud/static/media/about-img.cf254d8e2694002e18da.png",
+    "static/media/bannerhospital.jpg": "/ProyCSalud/static/media/bannerhospital.7efb6d409b887d9fafd4.jpg",
+    "static/media/hosp.webp": "/ProyCSalud/static/media/hosp.c0c46733c102216f72d1.webp",
+    "static/media/banner-two-bg.png": "/ProyCSalud/static/media/banner-two-bg.9a6ea07da1fa93ece228.png",
+    "static/media/curve-shape-1.png": "/ProyCSalud/static/media/curve-shape-1.e74d7b7172e5f0b53041.png",
+    "static/media/banner-image.png": "/ProyCSalud/static/media/banner-image.7ef37fcd72d49793fb43.png",
+    "static/media/curve-shape-2.png": "/ProyCSalud/static/media/curve-shape-2.b9258538d2882c7b98c0.png",
+    "static/media/article-img-3.png": "/ProyCSalud/static/media/article-img-3.687126894db10b299115.png",
+    "static/media/article-img-2.png": "/ProyCSalud/static/media/article-img-2.6234ce11e6cf7b889d4a.png",
+    "static/media/article-img-1.png": "/ProyCSalud/static/media/article-img-1.a0d245cf4d5be3e4e4a9.png",
+    "static/media/post-2.jpg": "/ProyCSalud/static/media/post-2.7c651cd1642f4eeed6e8.jpg",
+    "static/media/package-service-img.jpg": "/ProyCSalud/static/media/package-service-img.c62653f485ca70e8bfed.jpg",
+    "static/media/post-1.jpg": "/ProyCSalud/static/media/post-1.65409c649f40034a1ceb.jpg",
+    "static/media/post-3.jpg": "/ProyCSalud/static/media/post-3.6202c255ddc3a8c159a0.jpg",
+    "static/media/person-image.png": "/ProyCSalud/static/media/person-image.f11f2dda3fddeb4046bd.png",
+    "static/media/hospitalmadrisd.webp": "/ProyCSalud/static/media/hospitalmadrisd.59f313babf7659df2fc3.webp",
+    "index.html": "/ProyCSalud/index.html",
+    "main.71395f3b.css.map": "/ProyCSalud/static/css/main.71395f3b.css.map",
+    "main.1c715684.js.map": "/ProyCSalud/static/js/main.1c715684.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71395f3b.css",
+    "static/js/main.1c715684.js"
+  ]
+}
