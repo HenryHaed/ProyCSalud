@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { MenuPrincipal } from './components/MenuPrincipal';  
+import { Servicios } from './pages/Servicios';
+import { InfoPac } from './pages/InfoPac';
+import { ImageCarousel } from './components/ImageCarousel';
+import {Novedades} from './pages/Novedades';
+import { Somos } from './pages/Somos';
+import { Contactos } from './pages/Contactos';
+import { Historia } from './pages/Historia';
+import { ExtComuni } from './pages/ExtComuni';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element= {<MenuPrincipal/>}>
+            <Route path='/' Component={ImageCarousel}/>
+            <Route path='servicios' element={<Servicios/>} />
+            <Route path='infoPac' element={<InfoPac/>}/>
+            <Route path='novedades' element={<Novedades/>}/>
+
+            <Route path='somos' element={<Somos/>}/>
+            <Route path='historia' element={<Historia/>} />
+
+            <Route path='extencion' element={<ExtComuni/>} />
+
+            <Route path='contactos' element={ <Contactos/> }/>
+        </Route>
+      </Routes> 
     </div>
+
+      
   );
 }
 
